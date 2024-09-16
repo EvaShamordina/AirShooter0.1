@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace AirShooter.Classes;
-{
+
     internal class Explosion
     {
         private Texture2D texture;
@@ -82,4 +82,4 @@ namespace AirShooter.Classes;
 
         }
     }
-}
+

@@ -10,7 +10,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.IO;
 using SharpDX.Direct3D9;
 using System.Text;
-using AirShooter.Classes;
+
 
 namespace SpaceWar
 {
@@ -100,7 +100,7 @@ namespace SpaceWar
                     player.Update(Content);
                     space.Update();
                     UpdateAsteroid();
-                    CheckCollision(List<SaveData>);
+                    CheckCollision();
                     UpdateExplosion(gameTime);
                     UpdatehealBoosters();
                     if (Keyboard.GetState().IsKeyDown(Keys.Escape))
@@ -121,7 +121,20 @@ namespace SpaceWar
             base.Update(gameTime);
         }
 
+        private void CheckCollision()
+        {
+            throw new NotImplementedException();
+        }
 
+        private void UpdateAsteroid()
+        {
+            throw new NotImplementedException();
+        }
+
+        private void UpdatehealBoosters()
+        {
+            throw new NotImplementedException();
+        }
 
         protected override void Draw(GameTime gameTime)
         {
@@ -312,6 +325,13 @@ namespace SpaceWar
             if (mine.Count < asteroidAmount)
             {
                 LoadAsteroid();
+            }
+        }
+
+        internal class AirShooter
+        {
+            public AirShooter()
+            {
             }
         }
     }
