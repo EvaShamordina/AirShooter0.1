@@ -14,7 +14,7 @@ namespace AirShooter.Classes.Components
     {
         private Texture2D backTexture;
 
-        private int maxWidth;
+        public int maxWidth;
 
         public ShieldBar(Vector2 position, int width, int height) : base(position, width, height, "mainMenu")
         {
@@ -30,12 +30,12 @@ namespace AirShooter.Classes.Components
 
         public override void Draw(SpriteBatch spriteBatch)
         {
-            Rectangle backDestinationRectangle = new Rectangle((int)position.X, (int)position.Y, maxWidth, height);
+            Rectangle backDestinationRectangle = new((int)position.X, (int)position.Y, maxWidth, height);
             spriteBatch.Draw(backTexture, backDestinationRectangle, Color.White);
 
             base.Draw(spriteBatch);
         }
 
-        public void A() { }
+        public static void A() { }
     }
 }

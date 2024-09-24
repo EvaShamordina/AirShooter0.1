@@ -8,14 +8,16 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using SpaceWar;
+using AirShooter;
+
+
 
 namespace AirShooter.Classes
 {
     internal class GameOver
     {
-        private Label label;
-        private Label lblMaxScore;
+        public Label label;
+        public Label lblMaxScore;
 
         public GameOver(int width, int height)
         {
@@ -24,6 +26,11 @@ namespace AirShooter.Classes
         }
         public void AddScores(string playerScore, string totalScore)
         {
+            if (playerScore is null)
+            {
+                throw new ArgumentNullException(nameof(playerScore));
+            }
+
             lblMaxScore.Text += totalScore;
         }
         public void Restart()

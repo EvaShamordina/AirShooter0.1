@@ -8,6 +8,7 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
+
 namespace AirShooter.Classes
 {
     internal class Player
@@ -97,7 +98,7 @@ namespace AirShooter.Classes
 
             if (time > maxTime)
             {
-                Bullet b = new Bullet(5, 5, new Vector2(0, -1));
+                Bullet b = new(5, 5, new Vector2(0, -1));
                 b.LoadContent(manager);
                 b.Position = new Vector2((int)position.X + width / 2 - b.Width / 2, (int)position.Y);
                 bulletList.Add(b);
@@ -162,8 +163,8 @@ namespace AirShooter.Classes
         public void Reset(Vector2 startPos)
         {
             position = startPos;
-            position.X = position.X - texture.Width / 2;
-            position.Y = position.Y - texture.Height / 2;
+            position.X -= texture.Width / 2;
+            position.Y -= texture.Height / 2;
             speed = 10;
             bulletList = new List<Bullet>();
             time = 0;
@@ -174,6 +175,11 @@ namespace AirShooter.Classes
 
         public void Damage()
         {
+            Damage(TakeDamage);
+        }
+
+        public void Damage(Action takeDamage)
+        {
             if (shield.IsActive == true)
             {
                 return;
@@ -181,11 +187,16 @@ namespace AirShooter.Classes
             health--;
             if (TakeDamage != null)
             {
-                TakeDamage();
+                takeDamage();
             }
         }
 
-        public void Heal()
+        public Action GetCollectHP()
+        {
+            return CollectHP;
+        }
+
+        public void Heal(Action collectHP)
         {
             if (shield.IsActive == true || health >= 10)
             {
@@ -194,24 +205,34 @@ namespace AirShooter.Classes
             health += 2;
             if (CollectHP != null)
             {
-                CollectHP();
+                collectHP();
             }
         }
 
         public void AddScore()
         {
+            AddScore(ScoreUpdate);
+        }
+
+        public void AddScore(Action<int> scoreUpdate)
+        {
             score++;
             if (ScoreUpdate != null)
             {
-                ScoreUpdate(score);
+                scoreUpdate(score);
             }
         }
 
         public void UseShield(int percent)
         {
+            UseShield(percent, ShieldUse);
+        }
+
+        public void UseShield(int percent, Action<int> shieldUse)
+        {
             if (ShieldUse != null)
             {
-                ShieldUse(percent);
+                shieldUse(percent);
             }
         }
     }

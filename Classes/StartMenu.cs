@@ -18,21 +18,24 @@ namespace AirShooter.Classes
     {
         private List<Label> buttonList = new List<Label>();
 
-        private int selected;
+        public int selected;
 
         private Color selectedColor;
 
         private KeyboardState keyboardState;
         private KeyboardState prevKeyBoardState;
-        private Texture2D texture;
-        private ContentManager manager;
+        public Texture2D texture;
+        public ContentManager manager;
+
+        public int Width { get; }
+        public int Height { get; }
 
         public StartMenu(int width, int height)
         {
             selected = 0;
             selectedColor = Color.Black;
-            
-
+            Width = width;
+            Height = height;
         }
 
         public void LoadContent(ContentManager contentManager)
@@ -47,13 +50,18 @@ namespace AirShooter.Classes
 
         public void Update()
         {
+            Update(selected);
+        }
+
+        public void Update(int selected)
+        {
             keyboardState = Keyboard.GetState();
 
             if (prevKeyBoardState.IsKeyDown(Keys.S) && keyboardState.IsKeyUp(Keys.S))
             {
                 if (selected < buttonList.Count - 1)
                 {
-                    selected = selected + 1;
+                    selected += selected + 1;
                 }
 
             }
@@ -62,7 +70,7 @@ namespace AirShooter.Classes
             {
                 if (selected > 0)
                 {
-                    selected = selected - 1;
+                    _ = selected - 1;
                 }
             }
 

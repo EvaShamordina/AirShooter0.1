@@ -12,7 +12,7 @@ using SharpDX.Direct3D9;
 using System.Text;
 
 
-namespace SpaceWar
+namespace AirShooter
 {
     public class Game1 : Game
     {
@@ -72,6 +72,8 @@ namespace SpaceWar
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
+
+
             player.LoadContent(Content);
             space.LoadContent(Content);
 

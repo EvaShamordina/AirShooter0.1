@@ -16,19 +16,19 @@ namespace AirShooter.Classes;
 
         private Rectangle sourceRectangle;
 
-        private int frameWidth;
-        private int frameHeight;
+        public int frameWidth;
+        public int frameHeight;
         private int frameNumber; 
 
         private Vector2 position;
-        private double duration; 
+        public double duration; 
         private double totalTime;
 
         private bool isAlive;
 
-        private bool isLoop = true;
+        public bool isLoop = true;
 
-        private int speed;
+        public int speed;
 
         public bool IsAlive
         {

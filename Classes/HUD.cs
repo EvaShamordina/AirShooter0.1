@@ -15,7 +15,7 @@ namespace AirShooter.Classes
     {
         private HealthBar healthBar;
         private Label labelScore;
-        private Label labelScoreText;
+        private readonly Label labelScoreText;
         private ShieldBar shieldBar;
         public void LoadContent(ContentManager contentManager)
         {
@@ -34,7 +34,7 @@ namespace AirShooter.Classes
         }
         public void OnPlayerTakeDamage()
         {
-            healthBar.Width = healthBar.Width - 10;
+            healthBar.Width -= 10;
         }
         public void OnPlayerHealed()
         {
