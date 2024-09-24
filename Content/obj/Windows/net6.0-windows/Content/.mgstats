@@ -1,1 +1,8 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/kinoh/source/repos/AirShooter/AirShooter/Content/bgLayer1.png","C:/Users/kinoh/source/repos/AirShooter/AirShooter/Content/bin/Windows/Content/bgLayer1.xnb","TextureProcessor","Texture2DContent",218274,1536085,0.2789957
+"C:/Users/kinoh/source/repos/AirShooter/AirShooter/Content/bgLayer2.png","C:/Users/kinoh/source/repos/AirShooter/AirShooter/Content/bin/Windows/Content/bgLayer2.xnb","TextureProcessor","Texture2DContent",433043,1536085,0.0512129
+"C:/Users/kinoh/source/repos/AirShooter/AirShooter/Content/endMenu.png","C:/Users/kinoh/source/repos/AirShooter/AirShooter/Content/bin/Windows/Content/endMenu.xnb","TextureProcessor","Texture2DContent",470692,1536085,0.0543131
+"C:/Users/kinoh/source/repos/AirShooter/AirShooter/Content/explosion.png","C:/Users/kinoh/source/repos/AirShooter/AirShooter/Content/bin/Windows/Content/explosion.xnb","TextureProcessor","Texture2DContent",253361,858757,0.0340158
+"C:/Users/kinoh/source/repos/AirShooter/AirShooter/Content/gameFont.spritefont","C:/Users/kinoh/source/repos/AirShooter/AirShooter/Content/bin/Windows/Content/gameFont.xnb","FontDescriptionProcessor","SpriteFontContent",2069,70687,0.1626649
+"C:/Users/kinoh/source/repos/AirShooter/AirShooter/Content/laser.png","C:/Users/kinoh/source/repos/AirShooter/AirShooter/Content/bin/Windows/Content/laser.xnb","TextureProcessor","Texture2DContent",1612,3029,0.0024915
+"C:/Users/kinoh/source/repos/AirShooter/AirShooter/Content/mainbackground.png","C:/Users/kinoh/source/repos/AirShooter/AirShooter/Content/bin/Windows/Content/mainbackground.xnb","TextureProcessor","Texture2DContent",206786,1536085,0.0585199
