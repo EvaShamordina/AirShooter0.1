@@ -42,3 +42,8 @@ C:\Users\kinoh\source\repos\AirShooter\AirShooter\bin\x64\AirShooter\net6.0-wind
 C:\Users\kinoh\source\repos\AirShooter\AirShooter\bin\x64\AirShooter\net6.0-windows\Content\gameFont.xnb
 C:\Users\kinoh\source\repos\AirShooter\AirShooter\bin\x64\AirShooter\net6.0-windows\Content\laser.xnb
 C:\Users\kinoh\source\repos\AirShooter\AirShooter\bin\x64\AirShooter\net6.0-windows\Content\mainbackground.xnb
+C:\Users\kinoh\source\repos\AirShooter\AirShooter\bin\x64\AirShooter\net6.0-windows\Content\mainMenu.xnb
+C:\Users\kinoh\source\repos\AirShooter\AirShooter\bin\x64\AirShooter\net6.0-windows\Content\mine.xnb
+C:\Users\kinoh\source\repos\AirShooter\AirShooter\bin\x64\AirShooter\net6.0-windows\Content\mineAnimation.xnb
+C:\Users\kinoh\source\repos\AirShooter\AirShooter\bin\x64\AirShooter\net6.0-windows\Content\player.xnb
+C:\Users\kinoh\source\repos\AirShooter\AirShooter\bin\x64\AirShooter\net6.0-windows\Content\shipAnimation.xnb

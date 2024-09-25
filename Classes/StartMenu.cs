@@ -45,7 +45,7 @@ namespace AirShooter.Classes
                 button.LoadContent(contentManager);
 
             }
-            texture = manager.Load<Texture2D>("mainMenu");
+            texture = contentManager.Load<Texture2D>("mainMenu");
         }
 
         public void Update()

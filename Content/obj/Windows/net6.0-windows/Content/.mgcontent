@@ -11,8 +11,18 @@
     <File>C:/Users/kinoh/source/repos/AirShooter/AirShooter/Content/gameFont.spritefont</File>
     <File>C:/Users/kinoh/source/repos/AirShooter/AirShooter/Content/laser.png</File>
     <File>C:/Users/kinoh/source/repos/AirShooter/AirShooter/Content/mainbackground.png</File>
+    <File>C:/Users/kinoh/source/repos/AirShooter/AirShooter/Content/mainMenu.png</File>
+    <File>C:/Users/kinoh/source/repos/AirShooter/AirShooter/Content/mine.png</File>
+    <File>C:/Users/kinoh/source/repos/AirShooter/AirShooter/Content/mineAnimation.png</File>
+    <File>C:/Users/kinoh/source/repos/AirShooter/AirShooter/Content/player.png</File>
+    <File>C:/Users/kinoh/source/repos/AirShooter/AirShooter/Content/shipAnimation.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
