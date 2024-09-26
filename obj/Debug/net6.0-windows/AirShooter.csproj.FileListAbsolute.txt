@@ -35,3 +35,16 @@ C:\Users\kinoh\source\repos\AirShooter\AirShooter\obj\Debug\net6.0-windows\refin
 C:\Users\kinoh\source\repos\AirShooter\AirShooter\obj\Debug\net6.0-windows\AirShooter.pdb
 C:\Users\kinoh\source\repos\AirShooter\AirShooter\obj\Debug\net6.0-windows\AirShooter.genruntimeconfig.cache
 C:\Users\kinoh\source\repos\AirShooter\AirShooter\obj\Debug\net6.0-windows\ref\AirShooter.dll
+C:\Users\kinoh\source\repos\AirShooter\AirShooter\bin\Debug\net6.0-windows\Content\bgLayer1.xnb
+C:\Users\kinoh\source\repos\AirShooter\AirShooter\bin\Debug\net6.0-windows\Content\bgLayer2.xnb
+C:\Users\kinoh\source\repos\AirShooter\AirShooter\bin\Debug\net6.0-windows\Content\endMenu.xnb
+C:\Users\kinoh\source\repos\AirShooter\AirShooter\bin\Debug\net6.0-windows\Content\explosion.xnb
+C:\Users\kinoh\source\repos\AirShooter\AirShooter\bin\Debug\net6.0-windows\Content\gameFont.xnb
+C:\Users\kinoh\source\repos\AirShooter\AirShooter\bin\Debug\net6.0-windows\Content\laser.xnb
+C:\Users\kinoh\source\repos\AirShooter\AirShooter\bin\Debug\net6.0-windows\Content\mainbackground.xnb
+C:\Users\kinoh\source\repos\AirShooter\AirShooter\bin\Debug\net6.0-windows\Content\mainMenu.xnb
+C:\Users\kinoh\source\repos\AirShooter\AirShooter\bin\Debug\net6.0-windows\Content\mine.xnb
+C:\Users\kinoh\source\repos\AirShooter\AirShooter\bin\Debug\net6.0-windows\Content\mineAnimation.xnb
+C:\Users\kinoh\source\repos\AirShooter\AirShooter\bin\Debug\net6.0-windows\Content\player.xnb
+C:\Users\kinoh\source\repos\AirShooter\AirShooter\bin\Debug\net6.0-windows\Content\shipAnimation.xnb
+C:\Users\kinoh\source\repos\AirShooter\AirShooter\bin\Debug\net6.0-windows\Content\healthbar.xnb

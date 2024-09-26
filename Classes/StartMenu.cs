@@ -70,7 +70,7 @@ namespace AirShooter.Classes
             {
                 if (selected > 0)
                 {
-                    _ = selected - 1;
+                    selected = selected - 1;
                 }
             }
 

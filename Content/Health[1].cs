@@ -9,6 +9,12 @@ using System.Threading.Tasks;
 
 namespace AirShooter.Classes.Components
 {
-    
+    class HealthBar : Bar
+    {
+        public HealthBar(Vector2 position, int width, int height) : base(position, width, height, "healthbar")
+        {
+
+        }
+    }
 }
 
