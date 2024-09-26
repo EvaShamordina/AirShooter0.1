@@ -16,8 +16,23 @@ namespace AirShooter.Classes
 {
     internal class StartMenu
     {
+        
         private List<Label> buttonList = new List<Label>();
-
+        public void ButtonList(List<Label> buttonList)
+        {
+            buttonList.Add(endMenu);
+            buttonList.Add(explosion);
+            buttonList.Add(bgLayer1);
+            buttonList.Add(bgLayer2);
+            buttonList.Add(mainMenu);
+            buttonList.Add(healthbar);
+            buttonList.Add(laser);
+            buttonList.Add(mainbackground);
+            buttonList.Add(mine);
+            buttonList.Add(mineAnimation);
+            buttonList.Add(player);
+            buttonList.Add(shipAnimation);
+        }
         public int selected;
 
         private Color selectedColor;
@@ -26,7 +41,18 @@ namespace AirShooter.Classes
         private KeyboardState prevKeyBoardState;
         public Texture2D texture;
         public ContentManager manager;
-
+        private Label endMenu;
+        private Label explosion;
+        private Label bgLayer1;
+        private Label bgLayer2;
+        private Label mainMenu;
+        private Label healthbar;
+        private Label laser;
+        private Label mainbackground;
+        private Label mine;
+        private Label mineAnimation;
+        private Label player;
+        private Label shipAnimation;
         public int Width { get; }
         public int Height { get; }
 

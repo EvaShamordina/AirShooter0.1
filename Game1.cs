@@ -316,14 +316,14 @@ namespace AirShooter
 
                 a.Update();
 
-                //teleport
+               
                 if (a.Position.Y > screenHeight + 50 || a.IsAlive == false)
                 {
                     mine.RemoveAt(i);
                     i--;
                 }
             }
-            //загрузить доп астероид
+            
             if (mine.Count < asteroidAmount)
             {
                 LoadAsteroid();
